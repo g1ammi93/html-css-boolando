@@ -48,6 +48,8 @@ header {
     top: 0;
     right: 0;
     left: 0;
+    z-index: 1;
+    box-shadow: 5px 8px 5px gray;
 }
 
 nav {
@@ -76,7 +78,6 @@ nav {
 
 img {
     max-width: 100%;
-    display: block;
 }
 
 /* Card Section */
@@ -155,4 +156,23 @@ img {
 
 .bg-green {
     background-color: green;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.image-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card:hover .image-hover {
+    display: block;
+}
+
+.lef {
+    left: 0;
 }
