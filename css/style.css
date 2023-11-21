@@ -85,7 +85,7 @@ img {
 .col {
     height: 650px;
     flex-basis: calc(100% / 3);
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .card {
@@ -105,7 +105,7 @@ img {
     max-width: 1200px;
     max-height: 2000px;
     margin: 0 auto;
-    background-color: gray;
+    /* background-color: gray; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,4 +175,37 @@ img {
 
 .lef {
     left: 0;
+}
+
+
+/* Footer */
+
+footer {
+    color: white;
+    background-color: rgb(26, 26, 26);
+    height: 80px;
+    border-bottom: 1px solid white;
+}
+
+h4 {
+    margin-bottom: 4px;
+}
+
+.info-site>li>a {
+    font-size: 13px;
+}
+
+.foot {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-search {
+    font-size: 15px;
+}
+
+.social-image>li>a {
+    font-size: 18px;
 }
