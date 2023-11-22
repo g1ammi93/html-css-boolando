@@ -160,6 +160,10 @@ img {
     display: block;
 }
 
+/* .card:hover .image-1 {
+    display: none;
+} */
+
 .lef {
     left: 0;
 }
